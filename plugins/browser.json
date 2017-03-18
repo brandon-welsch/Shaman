@@ -7,73 +7,18 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-battery-status": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-contacts": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-device-motion": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-device-orientation": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-media": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-vibration": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "phonegap-plugin-barcodescanner": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.hhc17.shaman"
-        }
-    }
+    "dependent_plugins": {}
 }
