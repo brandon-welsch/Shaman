@@ -620,8 +620,7 @@ Page container
     display: table; }
   .page-container:after {
     clear: both; }
-  .page-header-fixed .page-container {
-    margin-top: 68px; }
+  .page-header-fixed .page-container { }
   .page-footer-fixed.page-footer-fixed-mobile .page-container {
     margin-bottom: 20px !important; }
 
@@ -640,13 +639,11 @@ Page container
   .page-container {
     margin: 0 !important;
     padding: 0 !important; }
-    .page-header-fixed.page-header-fixed-mobile .page-container {
-      margin-top: 68px !important; } }
+    .page-header-fixed.page-header-fixed-mobile .page-container { } }
 
 @media (max-width: 480px) {
   /* Page container */
-  .page-header-fixed.page-header-fixed-mobile .page-container {
-    margin-top: 136px !important; } }
+  .page-header-fixed.page-header-fixed-mobile .page-container { } }
 
 /***
 Page sidebar
@@ -1065,7 +1062,6 @@ Page sidebar
     .page-glyphicons .page-sidebar-menu.page-sidebar-menu-hover-submenu > li:hover > a > .arrow {
       margin-top: -38px; }
   .page-sidebar-menu.page-sidebar-menu-hover-submenu > li:hover > .sub-menu {
-    margin-left: 195px;
     margin-top: -78px; }
     .page-sidebar-reversed .page-sidebar-menu.page-sidebar-menu-hover-submenu > li:hover > .sub-menu {
       margin-left: -194px !important; }
@@ -1252,7 +1248,6 @@ Page content
     float: left;
     width: 100%; }
     .page-content-wrapper .page-content {
-      margin-left: 195px;
       margin-top: 0px;
       min-height: 600px;
       padding: 25px 20px 10px 20px; }
@@ -1378,7 +1373,6 @@ Page footer
     margin-left: 0 !important; }
   /* Fixed Sidebar */
   .page-sidebar-fixed .page-footer {
-    margin-left: 195px;
     padding: 8px 20px 5px 20px; }
   /* Boxed page */
   .page-boxed .page-footer {
