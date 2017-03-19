@@ -7,16 +7,18 @@
     </head>
     <body>
         <button onclick="scan()">Scan</button>
-        <a href="admin_2/layout_blank_page.html">Test</a>
+        <a href="pages/login.html">Login</a>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript">
             function scan() {
+                console.log("SCAN");
                 cordova.plugins.barcodeScanner.scan(
                     function (result) {
                         console.log("We got a barcode\n" +
                             "Result: " + result.text + "\n" +
                             "Format: " + result.format + "\n" +
                             "Cancelled: " + result.cancelled);
+                        window.location = "prescriptions.html"
                     },
                     function (error) {
                         console.log("Scanning failed: " + error);
