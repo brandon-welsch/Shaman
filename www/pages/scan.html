@@ -49,7 +49,6 @@
 <script type="text/javascript" src="../cordova.js"></script>
 <script type="text/javascript">
     function scan() {
-        console.log("SCAN");
         cordova.plugins.barcodeScanner.scan(
             function (result) {
                 console.log("We got a barcode\n" +
@@ -57,7 +56,7 @@
                     "Format: " + result.format + "\n" +
                     "Cancelled: " + result.cancelled);
                 if (result.text)
-                    window.location = "prescriptions.html"
+                    window.location = "dashboard.html"
             },
             function (error) {
                 console.log("Scanning failed: " + error);
